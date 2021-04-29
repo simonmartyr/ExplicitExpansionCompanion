@@ -11,6 +11,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Simon Martyr</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/simonmartyr/ExplicitExpansionCompanion</PackageProjectUrl>
   </PropertyGroup>
 
    <ItemGroup>
