@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>ExplicitExpansionCompanion</AssemblyName>
+    <PackageId>ExplicitExpansionCompanion</PackageId>
+    <PackageIcon>icon.png</PackageIcon>
+    <Summary>A generic resolver for DTOs that have explicit expansions.</Summary>
+    <Description>A generic resolver for DTOs that have explicit expansions.</Description>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.0.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Simon Martyr<Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+   <ItemGroup>
+    <None Include="..\icon.png" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.4.1" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.0.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.4.1" />
+  </ItemGroup>
+
+</Project>
