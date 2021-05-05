@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <AssemblyName>ExplicitExpansionCompanion</AssemblyName>
+    <RepositoryUrl>https://github.com/simonmartyr/ExplicitExpansionCompanion</RepositoryUrl>
     <PackageId>ExplicitExpansionCompanion</PackageId>
     <PackageIcon>icon.png</PackageIcon>
     <Summary>A generic resolver for DTOs that have explicit expansions.</Summary>
